@@ -1,0 +1,61 @@
+/*
+Chao Lin
+linc0@sewanee.edu
+Project #1 - Test Cases
+CS 257
+Professor Carl
+*/
+
+//Polynomial 1,2,3 are three polynomials that will be used in the test class. 
+//Every test cases passed in the test class
+**eval method**
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17;
+(intput=2, expect=203) (input=-2, expect=-209) (input=0,expect=17)
+
+Polynomial 2: -12x^3+4x^2+9x+10 
+(intput=2, expect=-52) (input=-2, expect=104) (input=0,expect=10)
+
+Polynomial 3: 3x^2-22x+88 
+(intput=2, expect=56) (input=-2, expect=144) (input=0,expect=88)
+
+**addition method**
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 2: -12x^3+4x^2+9x+10
+Polynomial 1+2: 6x^5-3x^4-11x^3+11x^2+12x+27
+
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 3: 3x^2-22x+88 
+Polynomial 1+3: 6x^5-3x^4+x^3+10x^2-19x+105 
+
+Polynomial 2: -12x^3+4x^2+9x+10 
+Polynomial 3: 3x^2-22x+88
+Polynomial 2+3: -12x^3+7x^2-13x+98
+
+**subtraction method**
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 2: -12x^3+4x^2+9x+10
+Polynomial 1-2: 6x^5-3x^4+13x^3+3x^2-6x+7
+
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 3: 3x^2-22x+88 
+Polynomial 1-3: 6x^5-3x^4+x^3+4x^2+25x-71
+
+Polynomial 2: -12x^3+4x^2+9x+10 
+Polynomial 3: 3x^2-22x+88
+Polynomial 2-3: -12x^3+x^2+31x-78
+
+**multiplication method**
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 2: -12x^3+4x^2+9x+10
+Polynomial 1*2: -72x^8+60x^7+30x^6-47x^5-29x^4-119x^3+165x^2+183x+170
+
+Polynomial 1: 6x^5-3x^4+x^3+7x^2+3x+17
+Polynomial 3: 3x^2-22x+88 
+Polynomial 1*3: 18x^7-141x^6+597x^5-265x^4-57x^3+601x^2-110x+1496
+
+Polynomial 2: -12x^3+4x^2+9x+10 
+Polynomial 3: 3x^2-22x+88
+Polynomial 2*3: -36x^5+276x^4-1117x^3+184x^2+572x+880
+
+
+
